@@ -124,6 +124,7 @@ class Categories extends CI_Controller {
 			$config['source_image'] = './uploads/'.$this->upload->file_name;
 			$config['new_image'] = './uploads/thumbs'; //mengcopy image ke folder thumbs
 			$config['create_thumb'] = TRUE;
+			$config['thumb_marker'] = '_thumb';
 			$config['maintain_ratio'] = TRUE;
 			$config['width']         = 75;
 			$config['height']       = 50;
